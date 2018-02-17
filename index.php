@@ -87,11 +87,11 @@ class Calendar{
   echo '<br \>';
   echo date("d m Y").'<br \>'.'<br \>';
   $today = getdate();
-  print_r($today);
+  //print_r($today);
   echo '<br \><br \>';
 
 
-  $calendar = new Calendar(6,2016);
+  $calendar = new Calendar(2,2018);
   $calendar->show();
   ?>
 </body>
